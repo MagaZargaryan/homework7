@@ -1,6 +1,7 @@
 package utils;
 
 public class ArrayUtils {
+	// this code returns a string with each member in the array concatenated together with ', ' in between.
 	public static String stringifyArrays(int[] arr){
 		String result="";
 		for( int i=0; i<arr.length; i=i+1) {
@@ -12,6 +13,7 @@ public class ArrayUtils {
 		return result + arr[arr.length-1];
 	}
 	
+	// this code reverses given array of integers
 	public static int[] reverse(int[] arr) {
 		int[] newarr =new int[arr.length];
 	
@@ -22,7 +24,7 @@ public class ArrayUtils {
 		return newarr; 
 		
 	}
-	
+	// this main method is for checking whether the code works or not
 	public static void main(String[] args) {
 		int[] arr= {1,2,3,4};
 	
